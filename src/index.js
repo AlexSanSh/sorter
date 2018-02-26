@@ -9,7 +9,7 @@ class Sorter {
   }
 
   at(index) {
-    return storeElem[index];
+    return this.storeElem[index];
   }
 
   get length() {
